@@ -37,7 +37,7 @@ const AddServiceCPN = () => {
     await ref.add({
       ServiceName: txtInputServiceName,
       price: txtInputPrice,
-      Creator: 'Admin Toan',
+      Creator: 'Admin',
       Time: `${day}/${month}/${year} ${hour}:${minute}:${second}`,
       FinalUpdate: `${day}/${month}/${year} ${hour}:${minute}:${second}`,
     });
